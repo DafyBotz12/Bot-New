@@ -19,8 +19,8 @@ const anu = {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": global.thumb
 					},
-					"title": "ＵｗＵ",
-					"description": "Rlxfly",
+					"title": "𝙱𝚘𝚝 𝙳𝚑𝚊𝚏𝚢 𝙽𝚒𝚑 𝙱𝚊𝚗𝚐",
+					"description": "𝙸𝚗𝚒 𝙳𝚑𝚊𝚏𝚢",
 					"currencyCode": "USD",
 					"priceAmount1000": "999999999999",
 					"retailerId": ">//<",
@@ -32,8 +32,8 @@ const anu = {
 }
   itsu.relayWAMessage(itsu.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
-                        "title": "Ｍｅｎｕ ＴｅｓｔＢｏｔ",
-                        "description": " \n_©Rell 2021_ ",
+                        "title": "𝙼 𝙴 𝙽 𝚄 𝙳 𝙷 𝙰 𝙵 𝚈 𝙱 𝙾 𝚃",
+                        "description": " \n_©𝙺𝚑𝚊𝚍𝚊𝚏𝚢𝙽𝚒𝚑𝙱𝚊𝚗𝚐 ",
                         "buttonText": `Menu`,
                         "listType": "SINGLE_SELECT",
                         "sections": [
