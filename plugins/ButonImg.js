@@ -24,13 +24,13 @@ let handler  = async (m, { itsu, usedPrefix: _p }) => {
 let fetch = require('node-fetch')
 let tag = `@${m.sender.split('@')[0]} 🐦`
  m, { contextInfo: { mentionedJid: itsu.parseMention(tag) }}
- let ow = `@${'6283820073017'.split('@')[0]}`
+ let ow = `@${'6281379753850'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: itsu.parseMention(tag) }}
- let pat1 = `@${'62813828362494'.split('@')[0]}`
+ let pat1 = `@${'6283820073017'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: itsu.parseMention(tag) }}
- let pat2 = `@${'6283801499848'.split('@')[0]}`
+ let pat2 = `@${'62895335209060'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: itsu.parseMention(tag) }}
- let pat3 = `@${'31687221333'.split('@')[0]}`
+ let pat3 = `@${'60173227619'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: itsu.parseMention(tag) }}
 let uwu = global.thumb
 let jam = new Date
@@ -118,7 +118,7 @@ const anu = {
                             itemCount : 999999999999,
                             itemCoun : 404,
                             surface : 404,
-                            message: `© ${itsu.user.name}\nSimple WhatsApp Bot`,
+                            message: `© 𝙺𝚑𝚊𝚍𝚊𝚏𝚢𝙶𝚊𝚗𝚣\nSimple WhatsApp Bot`,
                             orderTitle: 'B',
                             thumbnail: await (await fetch(ppBot)).buffer(), 
                             sellerJid: '0@s.whatsapp.net'
@@ -218,7 +218,7 @@ const anu = {
     let body   = itsu.menu.body   || '➠ %cmd%islimit'
     let footer = itsu.menu.footer || `›`.repeat(50) + '\n'
     let after  = itsu.menu.after  ||   (itsu.user.jid == global.itsu.user.jid ? '' : `Powered by https://wa.me/${global.itsu.user.jid.split`@`[0]}`) + `\n*%npmname@^%version*\n\`\`\`\%npmdesc\`\`\`` 
-    ' Recode by itsu '
+    ' Recode by Dafy '
     let _text  = before + '\n'
     for (let tag in groups) {
       _text += header.replace(/%category/g, tags[tag]) + '\n'
@@ -254,7 +254,7 @@ const buttons = [
 {buttonId: `/owner`, buttonText: {displayText: 'owner'}, type: 1}
 ]
 const buttonsMessage = {
-    contentText: `Ｈｉ ｕｓｅｒ\nᵢₘ  ${itsu.user.name} \n\n\n- Bot group: J3j8XFLPnOR0RI937C8Biu\n\n- Github : https://github.com/Rlxfly\n\n`,
+    contentText: `Ｈｉ ｕｓｅｒ\nᵢₘ  ${itsu.user.name} \n\n\n- Bot group: https://chat.whatsapp.com/DDBpEGASOb1KIcM0gRW59e\n\n- Github : https://github.com/DafyBotz12\n\n`,
     footerText: text,
     buttons: buttons,
     headerType: 4,
